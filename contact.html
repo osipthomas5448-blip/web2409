@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Structura Roofing Co.</title>
+    <meta name="description" content="Contact Structura Roofing Co. in Indianapolis, IN. Call 1-877-800-3177 or send us a message. Free roof inspections and consultations available.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-shapes">
+                    <span></span><span></span><span></span>
+                </div>
+                Structura
+            </a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html" class="active">Contact</a>
+                <a href="#" class="nav-cta" data-open-modal data-service="General Inquiry">Get a Quote</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="sep">/</span>
+                <span class="current">Contact</span>
+            </div>
+            <h1>Get in Touch</h1>
+            <p>Have a question or ready to schedule your free inspection? Reach out by phone, email, or the form below. Our team responds within 24 hours.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-grid">
+                <div>
+                    <div class="section-label">Contact Information</div>
+                    <h2 class="section-title" style="margin-bottom:24px;">We Are Here to Help</h2>
+                    <p style="color:var(--text-light);margin-bottom:32px;">Whether you need an emergency repair, a routine inspection, or a full roof replacement, our team is ready to assist. Reach us through any of the channels below.</p>
+
+                    <div class="contact-info-cards">
+                        <div class="contact-info-card">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--bauhaus-red)" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div>
+                                <h4>Office Address</h4>
+                                <p>3815 River Crossing Parkway, Suite 360<br>Indianapolis, IN 46240</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--bauhaus-yellow)" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>1-877-800-3177</p>
+                            </div>
+                        </div>
+                        <div class="contact-info-card">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--bauhaus-blue)" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                            <div>
+                                <h4>Email</h4>
+                                <p>hello@structuraroofing.site</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-hours">
+                        <h4>Business Hours</h4>
+                        <ul class="hours-list">
+                            <li><span class="day">Monday - Friday</span><span>7:00 AM - 6:00 PM</span></li>
+                            <li><span class="day">Saturday</span><span>8:00 AM - 2:00 PM</span></li>
+                            <li><span class="day">Sunday</span><span>Closed</span></li>
+                            <li><span class="day">Emergency Line</span><span>24/7 Available</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <h3>Send Us a Message</h3>
+                    <p>Fill out the form below and a member of our team will get back to you within one business day.</p>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Full Name</label>
+                                <input type="text" id="contactName" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address</label>
+                                <input type="email" id="contactEmail" name="email" placeholder="Your email address" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="phone" placeholder="(XXX) XXX-XXXX" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactService">Service Needed</label>
+                                <select id="contactService" name="service" required>
+                                    <option value="">Select a service</option>
+                                    <option value="Residential Roofing">Residential Roofing</option>
+                                    <option value="Commercial Roofing">Commercial Roofing</option>
+                                    <option value="Roof Inspections">Roof Inspections</option>
+                                    <option value="Storm Damage Repair">Storm Damage Repair</option>
+                                    <option value="Flat Roof Systems">Flat Roof Systems</option>
+                                    <option value="Maintenance Programs">Maintenance Programs</option>
+                                    <option value="General Inquiry">General Inquiry</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contactMessage">Message</label>
+                            <textarea id="contactMessage" name="message" placeholder="Describe your roofing needs, property type, and any relevant details" required></textarea>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="contactConsent" required>
+                            <label for="contactConsent">I agree to the <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms & Conditions</a>. I consent to being contacted regarding my inquiry.</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    <div class="form-success" id="contactSuccess">
+                        <div class="form-success-icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                        </div>
+                        <h3>Message Sent</h3>
+                        <p>Thank you for reaching out. A member of our team will respond within one business day.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <div>
+                <h2>Need Emergency Roof Repair?</h2>
+                <p>Our emergency response team is available 24/7 for storm damage and urgent leak situations.</p>
+            </div>
+            <a href="#" class="btn btn-white" data-open-modal data-service="Storm Damage Repair">Emergency Service</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-brand">
+                        <div class="nav-logo-shapes">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="footer-brand-name">Structura Roofing</span>
+                    </div>
+                    <p>Precision-engineered roofing solutions for residential and commercial properties across the Denver metro area. Licensed, insured, and backed by a 10-year workmanship guarantee.</p>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>3815 River Crossing Parkway, Suite 360\nIndianapolis, IN 46240</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+                        <span>1-877-800-3177</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+                        <span>hello@structuraroofing.site</span>
+                    </div>
+                </div>
+                <div>
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Residential Roofing</a></li>
+                        <li><a href="services.html">Commercial Roofing</a></li>
+                        <li><a href="services.html">Roof Inspections</a></li>
+                        <li><a href="services.html">Storm Damage Repair</a></li>
+                        <li><a href="services.html">Flat Roof Systems</a></li>
+                        <li><a href="services.html">Maintenance Programs</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="disclaimer.html">Disclaimer</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Service Areas</h4>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Denver, CO</a></li>
+                        <li><a href="contact.html">Lakewood, CO</a></li>
+                        <li><a href="contact.html">Aurora, CO</a></li>
+                        <li><a href="contact.html">Arvada, CO</a></li>
+                        <li><a href="contact.html">Westminster, CO</a></li>
+                        <li><a href="contact.html">Boulder, CO</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Structura Roofing Co. All rights reserved.</span>
+                <div class="footer-bottom-links">
+                    <a href="privacy-policy.html">Privacy Policy</a>
+                    <a href="terms-conditions.html">Terms</a>
+                    <a href="disclaimer.html">Disclaimer</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lead Popup Modal -->
+    <div class="modal-overlay" id="leadModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>Request Your Free Quote</h3>
+                <p>Fill out the form and we will contact you within 24 hours.</p>
+                <button class="modal-close" aria-label="Close modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="leadForm">
+                    <div id="formFields">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceSelect">Service Needed</label>
+                            <select id="serviceSelect" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="Residential Roofing">Residential Roofing</option>
+                                <option value="Commercial Roofing">Commercial Roofing</option>
+                                <option value="Roof Inspections">Roof Inspections</option>
+                                <option value="Storm Damage Repair">Storm Damage Repair</option>
+                                <option value="Flat Roof Systems">Flat Roof Systems</option>
+                                <option value="Maintenance Programs">Maintenance Programs</option>
+                                <option value="Free Inspection">Free Inspection</option>
+                                <option value="General Inquiry">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message (Optional)</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project"></textarea>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="consentCheck" required>
+                            <label for="consentCheck">I agree to the <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms & Conditions</a>. I consent to being contacted regarding my inquiry.</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit Request</button>
+                    </div>
+                </form>
+                <div class="form-success" id="formSuccess">
+                    <div class="form-success-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                    </div>
+                    <h3>Request Submitted</h3>
+                    <p>Thank you for choosing Structura Roofing Co. Our team will contact you within 24 hours to schedule your consultation.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-banner" id="cookieBanner">
+        <div class="container">
+            <p class="cookie-text">We use cookies to enhance your browsing experience and analyze site traffic. By continuing to use this site, you agree to our use of cookies. Read our <a href="privacy-policy.html">Privacy Policy</a> for more information.</p>
+            <div class="cookie-buttons">
+                <button class="cookie-accept" id="cookieAccept">Accept</button>
+                <button class="cookie-decline" id="cookieDecline">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

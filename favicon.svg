@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 14">
+  <!-- Red square -->
+  <rect x="0" y="0" width="14" height="14" fill="#D32F2F"/>
+  <!-- Yellow circle -->
+  <circle cx="24" cy="7" r="7" fill="#F9A825"/>
+  <!-- Blue upward triangle -->
+  <polygon points="34,14 48,14 41,0" fill="#1565C0"/>
+</svg>
